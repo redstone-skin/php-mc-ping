@@ -1,0 +1,22 @@
+{
+    "name": "redstone-skin/php-mc-ping",
+    "description": "Minecraft server Ping Api server.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yifan Xiao",
+            "email": "hempflower@outlook.com"
+        }
+    ],
+    "require": {
+        "klein/klein": "^2.1",
+        "xpaw/php-minecraft-query": "^4.0",
+        "spirit55555/php-minecraft": "^1.3"
+    },
+    "autoload": {
+        "files": [
+            "src/helper.php"
+        ]
+    }
+}
